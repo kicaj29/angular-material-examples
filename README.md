@@ -21,6 +21,18 @@ npm install chart.js@2.9.3 --save
 npm install --save-dev ng2-charts-schematics@0.1.7
 ```
 
+# Add navigation panel
+
+```
+ng generate @angular/material:navigation nav
+```
+
+# Add dashboard
+
+```
+ng generate @angular/material:dashboard dash
+```
+
 # links
 
 https://www.smashingmagazine.com/2020/07/responsive-dashboard-angular-material-ng2-charts-schematics   
