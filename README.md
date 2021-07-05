@@ -33,6 +33,15 @@ ng generate @angular/material:navigation nav
 ng generate @angular/material:dashboard dash
 ```
 
+# Generate charts
+
+```
+ng generate ng2-charts-schematics:radar charts/product-sales-chart
+ng generate ng2-charts-schematics:pie charts/sales-traffic-chart
+ng generate ng2-charts-schematics:line charts/annual-sales-chart 
+ng generate ng2-charts-schematics:bar charts/store-sessions-chart
+```
+
 # links
 
 https://www.smashingmagazine.com/2020/07/responsive-dashboard-angular-material-ng2-charts-schematics   
