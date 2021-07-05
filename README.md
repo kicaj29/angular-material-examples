@@ -42,6 +42,12 @@ ng generate ng2-charts-schematics:line charts/annual-sales-chart
 ng generate ng2-charts-schematics:bar charts/store-sessions-chart
 ```
 
+# Generate table
+
+```
+ng generate @angular/material:table orders-table
+```
+
 # links
 
 https://www.smashingmagazine.com/2020/07/responsive-dashboard-angular-material-ng2-charts-schematics   
