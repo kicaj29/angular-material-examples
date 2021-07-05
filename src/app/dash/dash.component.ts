@@ -49,5 +49,37 @@ export class DashComponent {
     })
   );
 
+  miniCardData = [
+    {
+      title: 'title1',
+      textValue: 'textValue1',
+      value: 'value1',
+      color: 'green',
+      percentValue: '57',
+      icon: 'home'
+    },
+    {
+      title: 'title2',
+      textValue: 'textValue2',
+      value: 'value2',
+      color: 'green',
+      percentValue: '57',
+      icon: 'alarm'
+    },
+    {
+      title: 'title3',
+      textValue: 'textValue3',
+      value: 'value3',
+      color: 'green',
+      percentValue: '57'
+    },
+    {
+      title: 'title4',
+      textValue: 'textValue4',
+      value: 'value4',
+      color: 'green',
+      percentValue: '57'
+    }
+  ];
   constructor(private breakpointObserver: BreakpointObserver) {}
 }
